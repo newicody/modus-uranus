@@ -3,7 +3,7 @@
 
 **Véhicule :** VF1JP0F0H43308282 · 130 000 km · extraction **moteur+boîte par l'AVANT** (cric + palette + pneu)
 **Boîte :** TL4B043 **NEUVE** (Eurofrance24, OE 320109255R / 8201057476 — NE PAS OUVRIR, garantie 12 mois)
-**Donneur casse :** Clio 3 Ph2 GT dCi 105 (K9K764 / TL4 002) — accessoires + train + levier/pédalier
+**Donneur casse :** modus 103 106ch non définie (K9K764 / TL4 x) — accessoires + levier/pédalier
 > Note : pour la **patte alu support gauche (8200338385)** et les pièces côté caisse, un **Modus/Grand Modus dCi 105/106** (même châssis J77) est un donneur plus juste que la Clio 3 GT — à viser si dispo.
 **Doc atelier :** RTA B775.5 + B700.5 · **`MODUS_JP0F_dossier_unifie.pdf`** (schémas + OE) · `freins.xps` (couples freinage)
 
@@ -18,7 +18,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 0-A — PRÉPARATION (voiture roulante → baie prête)
+# V0-A — PRÉPARATION (voiture roulante → baie prête)
 
 ### ⬜ 00 — Préparation box (établi, rangement visserie par bocaux étiquetés)
 ### ⬜ 01 — Déconnexion cardans au parking (boîte engagée pour bloquer) [sch.10] — écrou moyeu **C280 🔴**
@@ -63,7 +63,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 0-B — EXTRACTION + MAINTENANCE MOTEUR (2-3 j)
+# V0-B — EXTRACTION + MAINTENANCE MOTEUR (2-3 j)
 
 ### ⬜ 05 — Démontage face avant complète [sch.15] + bouclier/déflecteur [sch.13] (C M8 25) — **libère le passage avant**
 ### ⬜ 06 — Extraction moteur + JA5 **par l'avant** [sch.1] : abaisser/déposer berceau [sch.8] (6× M12 **C105**), banc Mot.1453
@@ -85,7 +85,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 0-C — BAIE VIDE + TL4 + RÉINSERTION + FMIC (2-3 j)
+# V 0-C — BAIE VIDE + TL4 + RÉINSERTION + FMIC (2-3 j)
 
 ### ⬜ 24e — Insonorisation pare-feu côté baie (baie vide)
 ### ⬜ 27 — Présentation TL4B043 baie vide
@@ -103,7 +103,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 0 — FREINAGE : CONVERSION DISQUE ARRIÈRE (pour CT + 120 ch+)
+# V 0 — FREINAGE : CONVERSION DISQUE ARRIÈRE (pour CT + 120 ch+)
 [sch.12] Trous de chape **présents** sur la fusée AR (photos) → **bolt-on**.
 - Disque-roulement AR (×2) : **Brembo 09.9078.75** *ou* **TRW DF4274BS** (240×8, roulement+ABS) — **un seul des deux**
 - Étriers : **TRW BHQ243 (AR G) / BHQ244 (AR D)** (alu, frein à main) · Chapes : **TRW BDA671 + BDA1088** · Plaquettes **GDB1330**
@@ -112,7 +112,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 1 — TURBO HYBRIDE + INJECTEURS + REPROG (260 Nm optimisé)
+# V 1 — TURBO HYBRIDE + INJECTEURS + REPROG (260 Nm optimisé)
 ### ⬜ P1-01 — Turbo hybride **BV39 VGT** (géométrie variable) + couverture céramique + durite huile
 ### ⬜ P1-02 — Meilleurs injecteurs [sch.18] (injecteur OE 166001137R, vis bride 7701477646)
 ### ⬜ P1-03 — Reprog fine : élargir la plage, **brider couple 240-260 Nm (protection TL4)**
@@ -120,7 +120,7 @@ Roue C105 · écrou transmission/moyeu M16 **C280 🔴** · berceau M12 **C105**
 
 ---
 
-# PHASE 2 — SWAP K9K896 (260 Nm plat large plage) — détail dans `Tache_phase_2`
+# V 2 — SWAP K9K896 (260 Nm plat large plage) — détail dans `Tache_phase_2`
 Sourcer K9K896 casse (Duster II 110-115 / Dokker / Logan II) + ECU **Bosch EDC17C84** + faisceau. **Cloche K9K identique** → accouplement TL4 direct (Loctite 518). Reprog Kess/KTAG bench. Gros turbo + meilleur démarreur.
 
 ---
