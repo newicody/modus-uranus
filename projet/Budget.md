@@ -26,6 +26,36 @@
 | Norauto ×3 | Chandelles 2T + extracteur moyeu + E-Torx + clés + barre force + clé purge + adapt. | 162,88 | Outillage |
 | | **TOTAL PAYÉ** | **1 087,07** | |
 
+## COMMANDES PAYÉES
+
+### EUROFRANCE24 — 531,79 € ✅
+TL4B043 neuve originale (320109255R / 8201057476) + livraison. Garantie 12 mois.
+
+### GT2i — 392,40 € ✅
+Powerflex ×6 : PF-F60901-2 + PF-F60902-2 + PF-F60920 + PF-F60821 + PF-F60525 + PF-R60810-2
+
+### NORAUTO — 162,88 € ✅
+- #21437065 : Chandelles 2T ×2 + extracteur moyeu (59,97 €)
+- #21452991 : Silicone + E-Torx + graisse Li + T50 + clé vidange + barre force (82,93 €)
+- #21454940 : Clé purge 8mm + adaptateur 1/2→3/8 (19,98 €)
+
+### MANOMANO — 89,80 € + mousse ✅ (5 juin)
+- M260691056452 : Clé dynamo 1/2" 30-345 Nm déclenchement auto (75,90 €) — couvre cardan 280 Nm
+- M260691056451 : Clé angulaire de serrage 1/2" (13,90 €)
+- M260691056450 : Mousse acoustique insono ×4 (montant à compléter) — couche absorbante
+
+### AMAZON — 198,36 € ✅ (5 juin)
+- 404-8338775-1497130 : Corteco 20031906B — SPI vilebrequin AV (25,46 €) [Tâche 11]
+- 404-7440995-4999517 : Loctite 243 5ml + Batterie LiFePO4 8Ah EverExceed (bord V1)
+  + Clips passage de roue Renault 7703077435 ×50 + Férose 250ml (80,47 €)
+- 404-3865489-9912323 : Owatrol Rustol aérosol 500ml (34,44 €) [AC-5]
+- 404-0570585-1450724 : Reckhorn ABX-tra Alubutyl 2 m² 2,5mm (57,99 €) [insono]
+
+**TOTAL PAYÉ : 1 375,23 € + mousse (montant ManoMano à compléter)**
+
+## ❌ ANNULÉES (ajout)
+| 404-7173866-8765127 — MEYLE 16-160310015 (38,48 €) | Amazon | Réf Clio I/II non confirmée Modus → recherche MEYLE-HD JP0F / Lemförder |
+
 ---
 
 ## V0 — INFRASTRUCTURE (corrosion · insonorisation · caisson · câblage)
