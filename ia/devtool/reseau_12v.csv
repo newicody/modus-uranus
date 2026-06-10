@@ -8,7 +8,7 @@ X,Y,Z,Nom,PMZ,Ref_OE,Ref_Montee,Type_Cable,Origine_Signal,Fonction
 180,0,45,UCH (Platine Servitude Habitacle),SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Gestion servitudes habitacle
 48,5,78,Relais Préchauffage,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Pilotage bougies préchauffage
 8,0,72,GMV Ventilateur Radiateur,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Refroidissement (consommateur fort)
-300,0,30,Pompe à Carburant + Jauge,DIS-BAT-12V,À DÉFINIR,—,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Alimentation gasoil + niveau réservoir
+300,0,30,Pompe à Carburant + Jauge,DIS-BAT-12V,8200588625,—,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Alimentation gasoil + niveau réservoir
 10,20,85,Klaxon,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Avertisseur sonore
 5,55,70,Phare Avant Droit,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Éclairage avant droit
 5,-55,70,Phare Avant Gauche,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Éclairage avant gauche
