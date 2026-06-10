@@ -1,0 +1,45 @@
+X,Y,Z,Nom,PMZ,Type_Reseau,Ref_OE,Type_Cable,Origine_Signal,Fonction
+20,0,85,Capteur PMH (Régime),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+30,10,85,Capteur Arbre à Cames (Phase),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+40,15,75,Pression Rail haute pression,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+42,20,72,Régulateur Température Gasoil,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+35,-15,78,Sonde Température Eau Culasse,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+15,-30,90,Débitmètre d'Air Massique (MAF),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+25,-25,65,Pression Suralimentation (MAP),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+50,-10,82,Recopie Position Vanne EGR,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+15,10,55,Manocontact Pression Huile Bloc,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+20,15,50,Sonde Niveau d'Huile Carter,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+10,-15,45,Détecteur Eau Filtre Gasoil,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+55,25,60,Capteur Pression Réfrigérant Clim,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+40,75,35,Vitesse Roue AV D,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+40,-75,35,Vitesse Roue AV G,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+320,75,35,Vitesse Roue AR D,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+320,-75,35,Vitesse Roue AR G,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+62,-55,43,Capteur Pression Maître-Cylindre,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+125,-20,75,Capteur Angle Volant (DAE),SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+125,-15,70,Capteur Couple Colonne Direction,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+160,0,38,Accéléromètre Lacet (Centrale ESP),SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+110,0,105,Combiné Compteur Digital,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+130,30,80,Comodo Phares Essuie-Glace,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+140,0,130,Capteur Pluie Luminosité,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+135,0,70,Façade Commande Clim Auto,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+140,10,65,Capteur Évaporateur Clim,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+138,-5,125,Sonde Température Intérieure,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+105,-40,50,Potentiomètre Pédale Accélérateur,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+105,-25,52,Contacteur Bi-fonction Frein,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+105,-15,52,Capteur Fin de Course Embrayage,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+150,82,75,Platine Lève-Vitre Porte AV D,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+150,-82,75,Platine Lève-Vitre Porte AV G,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+250,82,80,Moteur Serrure Porte AR D,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+250,-82,80,Moteur Serrure Porte AR G,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+370,0,70,Contacteur Serrure Coffre,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+365,40,45,Radar Recul Extérieur 1,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+365,-40,45,Radar Recul Extérieur 2,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+125,-20,82,Airbag Volant Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+125,40,85,Airbag Frontal Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+190,-55,55,Airbag Latéral Siège Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+190,55,55,Airbag Latéral Siège Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+140,-78,50,Prétensionneur Ceinture Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+140,78,50,Prétensionneur Ceinture Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+160,-80,60,Capteur Choc Latéral Montant B G,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+160,80,60,Capteur Choc Latéral Montant B D,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A

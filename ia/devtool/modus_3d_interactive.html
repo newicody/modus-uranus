@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Multi-Réseaux Cyber-Modus</title>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans overflow-hidden w-screen h-screen flex">
+
+    <div class="w-[380px] h-full bg-slate-900 border-r border-slate-800 flex flex-col justify-between p-4 z-50 shadow-2xl shrink-0">
+        <div class="flex flex-col flex-1 min-h-0">
+            <div class="mb-4">
+                <h1 class="text-lg font-black tracking-tight text-white flex items-center space-x-2">
+                    <span class="bg-indigo-600 px-2 py-0.5 rounded text-xs font-mono">V5.0</span>
+                    <span>CYBER-MODUS INFRA</span>
+                </h1>
+                <p class="text-[11px] text-slate-400 mt-1">Cliquez sur un composant pour le localiser en 3D</p>
+            </div>
+            
+            <div class="flex-1 overflow-y-auto pr-1 custom-scrollbar">
+                <h2 class="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">Composants par Sous-Répartiteur</h2>
+                
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>Réseau FTTH/Telecom</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">3 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Réseau FTTH/Telecom" data-sub="SR-CHAS-02">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #7FDBFF;"></span>
+                <span class="font-mono text-[10px]">SR-CHAS-02</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="0" data-nom="Vitesse Roue AV D" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Vitesse Roue AV D</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="1" data-nom="Vitesse Roue AV G" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Vitesse Roue AV G</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="2" data-nom="Vitesse Roue AR D" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Vitesse Roue AR D</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="3" data-nom="Vitesse Roue AR G" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Vitesse Roue AR G</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="4" data-nom="Capteur Pression Maître-Cylindre" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Pression Maître-Cylindre</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="5" data-nom="Capteur Angle Volant (DAE)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Angle Volant (DAE)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="6" data-nom="Capteur Couple Colonne Direction" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Couple Colonne Direction</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="3" data-point="7" data-nom="Accéléromètre Lacet (Centrale ESP)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Accéléromètre Lacet (Centrale ESP)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div>
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Réseau FTTH/Telecom" data-sub="SR-HAB-03">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #0074D9;"></span>
+                <span class="font-mono text-[10px]">SR-HAB-03</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="0" data-nom="Combiné Compteur Digital" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Combiné Compteur Digital</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="1" data-nom="Comodo Phares Essuie-Glace" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Comodo Phares Essuie-Glace</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="2" data-nom="Capteur Pluie Luminosité" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Pluie Luminosité</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="3" data-nom="Façade Commande Clim Auto" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Façade Commande Clim Auto</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="4" data-nom="Capteur Évaporateur Clim" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Évaporateur Clim</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="5" data-nom="Sonde Température Intérieure" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Sonde Température Intérieure</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="6" data-nom="Potentiomètre Pédale Accélérateur" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Potentiomètre Pédale Accélérateur</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="7" data-nom="Contacteur Bi-fonction Frein" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Contacteur Bi-fonction Frein</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="8" data-nom="Capteur Fin de Course Embrayage" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Fin de Course Embrayage</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="9" data-nom="Platine Lève-Vitre Porte AV D" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Platine Lève-Vitre Porte AV D</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="10" data-nom="Platine Lève-Vitre Porte AV G" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Platine Lève-Vitre Porte AV G</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="11" data-nom="Moteur Serrure Porte AR D" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Moteur Serrure Porte AR D</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="12" data-nom="Moteur Serrure Porte AR G" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Moteur Serrure Porte AR G</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="13" data-nom="Contacteur Serrure Coffre" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Contacteur Serrure Coffre</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="14" data-nom="Radar Recul Extérieur 1" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Radar Recul Extérieur 1</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="15" data-nom="Radar Recul Extérieur 2" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Radar Recul Extérieur 2</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="16" data-nom="Airbag Volant Conducteur" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Airbag Volant Conducteur</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="17" data-nom="Airbag Frontal Passager" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Airbag Frontal Passager</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="18" data-nom="Airbag Latéral Siège Conducteur" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Airbag Latéral Siège Conducteur</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="19" data-nom="Airbag Latéral Siège Passager" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Airbag Latéral Siège Passager</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="20" data-nom="Prétensionneur Ceinture Conducteur" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Prétensionneur Ceinture Conducteur</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="21" data-nom="Prétensionneur Ceinture Passager" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Prétensionneur Ceinture Passager</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="22" data-nom="Capteur Choc Latéral Montant B G" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Choc Latéral Montant B G</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="5" data-point="23" data-nom="Capteur Choc Latéral Montant B D" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Choc Latéral Montant B D</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div>
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Réseau FTTH/Telecom" data-sub="SR-MOT-01">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #FF4136;"></span>
+                <span class="font-mono text-[10px]">SR-MOT-01</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="0" data-nom="Capteur PMH (Régime)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur PMH (Régime)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="1" data-nom="Capteur Arbre à Cames (Phase)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Arbre à Cames (Phase)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="2" data-nom="Pression Rail haute pression" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Pression Rail haute pression</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="3" data-nom="Régulateur Température Gasoil" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Régulateur Température Gasoil</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="4" data-nom="Sonde Température Eau Culasse" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Sonde Température Eau Culasse</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="5" data-nom="Débitmètre d'Air Massique (MAF)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Débitmètre d'Air Massique (MAF)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="6" data-nom="Pression Suralimentation (MAP)" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Pression Suralimentation (MAP)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="7" data-nom="Recopie Position Vanne EGR" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Recopie Position Vanne EGR</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="8" data-nom="Manocontact Pression Huile Bloc" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Manocontact Pression Huile Bloc</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="9" data-nom="Sonde Niveau d'Huile Carter" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Sonde Niveau d'Huile Carter</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="10" data-nom="Détecteur Eau Filtre Gasoil" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Détecteur Eau Filtre Gasoil</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="7" data-point="11" data-nom="Capteur Pression Réfrigérant Clim" data-ref="nan" data-cable="Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)" data-origin="nan" data-func="nan">
+                    <span class="truncate max-w-[210px]">⊙ Capteur Pression Réfrigérant Clim</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>Alimentation 12V (Batterie)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Alimentation 12V (Batterie)" data-sub="SR-HAB-03">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #0074D9;"></span>
+                <span class="font-mono text-[10px]">SR-HAB-03</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="9" data-point="0" data-nom="Exemple Alimentation 12V (Batterie)" data-ref="0" data-cable="Standard" data-origin="Source" data-func="Définir fonction">
+                    <span class="truncate max-w-[210px]">⊙ Exemple Alimentation 12V (Batterie)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>Hybride 48V (iBSG Belt)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Hybride 48V (iBSG Belt)" data-sub="SR-HAB-03">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #0074D9;"></span>
+                <span class="font-mono text-[10px]">SR-HAB-03</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="11" data-point="0" data-nom="Exemple Hybride 48V (iBSG Belt)" data-ref="0" data-cable="Standard" data-origin="Source" data-func="Définir fonction">
+                    <span class="truncate max-w-[210px]">⊙ Exemple Hybride 48V (iBSG Belt)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>USB 5V (Recharge Tél)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="USB 5V (Recharge Tél)" data-sub="SR-HAB-03">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #0074D9;"></span>
+                <span class="font-mono text-[10px]">SR-HAB-03</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="13" data-point="0" data-nom="Exemple USB 5V (Recharge Tél)" data-ref="0" data-cable="Standard" data-origin="Source" data-func="Définir fonction">
+                    <span class="truncate max-w-[210px]">⊙ Exemple USB 5V (Recharge Tél)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>5V Spécial (MegaDrive & ESP32)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="5V Spécial (MegaDrive & ESP32)" data-sub="SR-SPEC-5V">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #F012BE;"></span>
+                <span class="font-mono text-[10px]">SR-SPEC-5V</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="15" data-point="0" data-nom="Console Sega Mega Drive" data-ref="N/A - RETROFIT" data-cable="Blindé Cuivre 2x1.5mm²" data-origin="Régulateur 5V GBOX" data-func="Divertissement Habitacle / Easter Egg">
+                    <span class="truncate max-w-[210px]">⊙ Console Sega Mega Drive</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="15" data-point="1" data-nom="Co-processeur ESP32" data-ref="N/A - IOT" data-cable="Nappe FTP Cat6" data-origin="Bus Interne GBOX" data-func="Passerelle Wifi/Ble et Télémétrie">
+                    <span class="truncate max-w-[210px]">⊙ Co-processeur ESP32</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>Capteurs 3.3V (Roue Secours)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Capteurs 3.3V (Roue Secours)" data-sub="SR-HAB-03">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #0074D9;"></span>
+                <span class="font-mono text-[10px]">SR-HAB-03</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="17" data-point="0" data-nom="Exemple Capteurs 3.3V (Roue Secours)" data-ref="0" data-cable="Standard" data-origin="Source" data-func="Définir fonction">
+                    <span class="truncate max-w-[210px]">⊙ Exemple Capteurs 3.3V (Roue Secours)</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+    <details class="mb-2 bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+        <summary class="p-3 cursor-pointer font-bold text-xs text-slate-200 uppercase tracking-wider bg-slate-800/50 hover:bg-slate-700 transition flex justify-between items-center">
+            <span>Organes Mécaniques (Bloc Moteur)</span>
+            <span class="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded-full">1 S/R</span>
+        </summary>
+        <div class="p-2 bg-slate-900/40 space-y-2 border-t border-slate-800">
+    
+        <div class="bg-slate-950/60 p-2 rounded border border-slate-800">
+            <label class="flex items-center space-x-2 text-xs text-slate-300 font-bold cursor-pointer hover:text-white transition pb-1 mb-1 border-b border-slate-900">
+                <input type="checkbox" checked class="subnet-toggle rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" data-net="Organes Mécaniques (Bloc Moteur)" data-sub="MOTEUR">
+                <span class="w-2.5 h-2.5 rounded-full inline-block" style="background-color: #AAAAAA;"></span>
+                <span class="font-mono text-[10px]">MOTEUR</span>
+            </label>
+            <div class="space-y-0.5 pt-1 pl-1">
+        
+                <div class="element-locator flex items-center justify-between text-[11px] text-slate-400 hover:text-indigo-400 cursor-pointer transition py-0.5 px-1 rounded hover:bg-slate-900" 
+                     data-trace="19" data-point="0" data-nom="Bloc Moteur 1.5 dCi K9K" data-ref="8200XXXXXX" data-cable="N/A (Structure)" data-origin="Châssis" data-func="Groupe Motopropulseur Cylindres">
+                    <span class="truncate max-w-[210px]">⊙ Bloc Moteur 1.5 dCi K9K</span>
+                    <span class="text-[8px] font-black tracking-widest text-slate-500 bg-slate-800 px-1 py-0.2 rounded uppercase hover:bg-indigo-950 hover:text-indigo-300">Loc</span>
+                </div>
+            </div></div></div></details>
+            </div>
+        </div>
+        
+        <div class="mt-4 bg-slate-950 rounded-xl p-4 border border-slate-800 h-[260px] flex flex-col justify-between shadow-inner">
+            <div>
+                <div class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-1">Fiche d'Information Matériel</div>
+                <h3 id="info-title" class="text-xs font-bold text-white truncate">Sélectionnez un élément à gauche...</h3>
+            </div>
+            
+            <div class="space-y-1.5 flex-1 mt-3 overflow-y-auto text-[11px] text-slate-300">
+                <div class="flex justify-between border-b border-slate-900 pb-1"><span class="text-slate-500">Réf Constructeur / OE :</span><span id="info-ref" class="font-mono text-white text-[10px]">--</span></div>
+                <div class="flex flex-col border-b border-slate-900 pb-1"><span class="text-slate-500">Média (Type de câble) :</span><span id="info-cable" class="text-indigo-200 text-[10px] font-medium mt-0.5">--</span></div>
+                <div class="flex justify-between border-b border-slate-900 pb-1"><span class="text-slate-500">Nœud Source :</span><span id="info-origin" class="font-mono text-emerald-400 text-[10px]">--</span></div>
+                <div class="mt-1"><span class="text-slate-500 block mb-0.5">Rôle & Spécification :</span><p id="info-function" class="text-slate-400 italic leading-relaxed text-[10px]">En attente d'interaction.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-1 h-full relative bg-slate-950">
+        <div style="height:100%; width:100%;">                            <div id="93ea7f29-74a5-411c-af61-1653aa0a0f75" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("93ea7f29-74a5-411c-af61-1653aa0a0f75")) {                    Plotly.newPlot(                        "93ea7f29-74a5-411c-af61-1653aa0a0f75",                        [{"color":"grey","hoverinfo":"skip","name":"Châssis Modus","opacity":0.03,"x":[0,80,140,260,380,380,260,140,80,0,0,80,140,260,380,380,260,140,80,0],"y":[85,85,85,85,60,-60,-85,-85,-85,-85,-85,-85,-85,-85,-60,60,85,85,85,85],"z":[40,85,160,160,85,85,160,160,85,40,40,85,160,160,85,85,160,160,85,40],"type":"mesh3d"},{"customdata":[["Calculateur Maître","Faisceau Inter-Réseaux","Routage Multiplexé","Gestionnaire de trames"],["Boîtier Nœud Infra","N\u002fA structural","SR-MOT-01","Sous-Répartiteur Moteur (PDU\u002fFusibles Compartiment Avant)"],["Boîtier Nœud Infra","N\u002fA structural","SR-CHAS-02","Sous-Répartiteur Châssis (Centrale de Trajectoire ABS\u002fESP)"],["Boîtier Nœud Infra","N\u002fA structural","SR-HAB-03","Sous-Répartiteur Habitacle (Platine de Servitude UCH)"],["Boîtier Nœud Infra","N\u002fA structural","DIS-BAT-12V","Distribution Énergie Basse Tension - Batterie Plomb 12V"],["Boîtier Nœud Infra","N\u002fA structural","DIS-HYB-48V","Distribution Puissance iBSG & Pack Hybride 48V Engine-Belt"],["Boîtier Nœud Infra","N\u002fA structural","SR-SPEC-5V","Sous-Répartiteur Régulé 5V (Hub Boîte à Gants Sega & IoT)"],["Boîtier Nœud Infra","N\u002fA structural","SR-COF-3V3","Sous-Répartiteur Instrumentation Basse Puissance 3.3V Fond de Coffre"],["Boîtier Nœud Infra","N\u002fA structural","MOTEUR","Bloc d'Ancrage Mécanique Principal - Moteur K9K dCi"]],"hovertemplate":"\u003cb\u003eNœud Réseau :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"gold","line":{"color":"black","width":1.5},"size":10,"symbol":"diamond"},"mode":"markers","name":"Nodes_Infra","text":["NRO-UC (Unité Centrale Maître \u002f UCH Delphi)","SR-MOT-01","SR-CHAS-02","SR-HAB-03","DIS-BAT-12V","DIS-HYB-48V","SR-SPEC-5V","SR-COF-3V3","MOTEUR"],"x":[120,45,60,180,45,240,130,340,35],"y":[0,0,-55,0,-25,0,45,0,0],"z":[75,80,45,45,70,35,70,20,65],"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#7FDBFF","dash":"solid","width":2.5},"mode":"lines","name":"Line || Réseau FTTH\u002fTelecom || SR-CHAS-02","showlegend":false,"x":[60,40,null,60,40,null,60,320,null,60,320,null,60,62,null,60,125,null,60,125,null,60,160,null],"y":[-55,75,null,-55,-75,null,-55,75,null,-55,-75,null,-55,-55,null,-55,-20,null,-55,-15,null,-55,0,null],"z":[45,35,null,45,35,null,45,35,null,45,35,null,45,43,null,45,75,null,45,70,null,45,38,null],"type":"scatter3d"},{"customdata":[["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#7FDBFF","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Réseau FTTH\u002fTelecom || SR-CHAS-02","showlegend":false,"text":["Vitesse Roue AV D","Vitesse Roue AV G","Vitesse Roue AR D","Vitesse Roue AR G","Capteur Pression Maître-Cylindre","Capteur Angle Volant (DAE)","Capteur Couple Colonne Direction","Accéléromètre Lacet (Centrale ESP)"],"x":{"dtype":"i2","bdata":"KAAoAEABQAE+AH0AfQCgAA=="},"y":{"dtype":"i1","bdata":"S7VLtcns8QA="},"z":{"dtype":"i1","bdata":"IyMjIytLRiY="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#0074D9","dash":"solid","width":2.5},"mode":"lines","name":"Line || Réseau FTTH\u002fTelecom || SR-HAB-03","showlegend":false,"x":[180,110,null,180,130,null,180,140,null,180,135,null,180,140,null,180,138,null,180,105,null,180,105,null,180,105,null,180,150,null,180,150,null,180,250,null,180,250,null,180,370,null,180,365,null,180,365,null,180,125,null,180,125,null,180,190,null,180,190,null,180,140,null,180,140,null,180,160,null,180,160,null],"y":[0,0,null,0,30,null,0,0,null,0,0,null,0,10,null,0,-5,null,0,-40,null,0,-25,null,0,-15,null,0,82,null,0,-82,null,0,82,null,0,-82,null,0,0,null,0,40,null,0,-40,null,0,-20,null,0,40,null,0,-55,null,0,55,null,0,-78,null,0,78,null,0,-80,null,0,80,null],"z":[45,105,null,45,80,null,45,130,null,45,70,null,45,65,null,45,125,null,45,50,null,45,52,null,45,52,null,45,75,null,45,75,null,45,80,null,45,80,null,45,70,null,45,45,null,45,45,null,45,82,null,45,85,null,45,55,null,45,55,null,45,50,null,45,50,null,45,60,null,45,60,null],"type":"scatter3d"},{"customdata":[["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#0074D9","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Réseau FTTH\u002fTelecom || SR-HAB-03","showlegend":false,"text":["Combiné Compteur Digital","Comodo Phares Essuie-Glace","Capteur Pluie Luminosité","Façade Commande Clim Auto","Capteur Évaporateur Clim","Sonde Température Intérieure","Potentiomètre Pédale Accélérateur","Contacteur Bi-fonction Frein","Capteur Fin de Course Embrayage","Platine Lève-Vitre Porte AV D","Platine Lève-Vitre Porte AV G","Moteur Serrure Porte AR D","Moteur Serrure Porte AR G","Contacteur Serrure Coffre","Radar Recul Extérieur 1","Radar Recul Extérieur 2","Airbag Volant Conducteur","Airbag Frontal Passager","Airbag Latéral Siège Conducteur","Airbag Latéral Siège Passager","Prétensionneur Ceinture Conducteur","Prétensionneur Ceinture Passager","Capteur Choc Latéral Montant B G","Capteur Choc Latéral Montant B D"],"x":{"dtype":"i2","bdata":"bgCCAIwAhwCMAIoAaQBpAGkAlgCWAPoA+gByAW0BbQF9AH0AvgC+AIwAjACgAKAA"},"y":{"dtype":"i1","bdata":"AB4AAAr72OfxUq5SrgAo2OwoyTeyTrBQ"},"z":{"dtype":"i2","bdata":"aQBQAIIARgBBAH0AMgA0ADQASwBLAFAAUABGAC0ALQBSAFUANwA3ADIAMgA8ADwA"},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#FF4136","dash":"solid","width":2.5},"mode":"lines","name":"Line || Réseau FTTH\u002fTelecom || SR-MOT-01","showlegend":false,"x":[45,20,null,45,30,null,45,40,null,45,42,null,45,35,null,45,15,null,45,25,null,45,50,null,45,15,null,45,20,null,45,10,null,45,55,null],"y":[0,0,null,0,10,null,0,15,null,0,20,null,0,-15,null,0,-30,null,0,-25,null,0,-10,null,0,10,null,0,15,null,0,-15,null,0,25,null],"z":[80,85,null,80,85,null,80,75,null,80,72,null,80,78,null,80,90,null,80,65,null,80,82,null,80,55,null,80,50,null,80,45,null,80,60,null],"type":"scatter3d"},{"customdata":[["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"],["N\u002fA","Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH)","N\u002fA","N\u002fA"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#FF4136","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Réseau FTTH\u002fTelecom || SR-MOT-01","showlegend":false,"text":["Capteur PMH (Régime)","Capteur Arbre à Cames (Phase)","Pression Rail haute pression","Régulateur Température Gasoil","Sonde Température Eau Culasse","Débitmètre d'Air Massique (MAF)","Pression Suralimentation (MAP)","Recopie Position Vanne EGR","Manocontact Pression Huile Bloc","Sonde Niveau d'Huile Carter","Détecteur Eau Filtre Gasoil","Capteur Pression Réfrigérant Clim"],"x":{"dtype":"i1","bdata":"FB4oKiMPGTIPFAo3"},"y":{"dtype":"i1","bdata":"AAoPFPHi5\u002fYKD\u002fEZ"},"z":{"dtype":"i1","bdata":"VVVLSE5aQVI3Mi08"},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#0074D9","dash":"dash","width":2.5},"mode":"lines","name":"Line || Alimentation 12V (Batterie) || SR-HAB-03","showlegend":false,"x":[180,120,null],"y":[0,0,null],"z":[45,75,null],"type":"scatter3d"},{"customdata":[[0,"Standard","Source","Définir fonction"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#0074D9","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Alimentation 12V (Batterie) || SR-HAB-03","showlegend":false,"text":["Exemple Alimentation 12V (Batterie)"],"x":{"dtype":"i1","bdata":"eA=="},"y":{"dtype":"i1","bdata":"AA=="},"z":{"dtype":"i1","bdata":"Sw=="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#0074D9","dash":"longdash","width":2.5},"mode":"lines","name":"Line || Hybride 48V (iBSG Belt) || SR-HAB-03","showlegend":false,"x":[180,120,null],"y":[0,0,null],"z":[45,75,null],"type":"scatter3d"},{"customdata":[[0,"Standard","Source","Définir fonction"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#0074D9","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Hybride 48V (iBSG Belt) || SR-HAB-03","showlegend":false,"text":["Exemple Hybride 48V (iBSG Belt)"],"x":{"dtype":"i1","bdata":"eA=="},"y":{"dtype":"i1","bdata":"AA=="},"z":{"dtype":"i1","bdata":"Sw=="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#0074D9","dash":"dot","width":2.5},"mode":"lines","name":"Line || USB 5V (Recharge Tél) || SR-HAB-03","showlegend":false,"x":[180,120,null],"y":[0,0,null],"z":[45,75,null],"type":"scatter3d"},{"customdata":[[0,"Standard","Source","Définir fonction"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#0074D9","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || USB 5V (Recharge Tél) || SR-HAB-03","showlegend":false,"text":["Exemple USB 5V (Recharge Tél)"],"x":{"dtype":"i1","bdata":"eA=="},"y":{"dtype":"i1","bdata":"AA=="},"z":{"dtype":"i1","bdata":"Sw=="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#F012BE","dash":"dashdot","width":2.5},"mode":"lines","name":"Line || 5V Spécial (MegaDrive & ESP32) || SR-SPEC-5V","showlegend":false,"x":[130,135,null,130,130,null],"y":[45,43,null,45,47,null],"z":[70,72,null,70,71,null],"type":"scatter3d"},{"customdata":[["N\u002fA - RETROFIT","Blindé Cuivre 2x1.5mm²","Régulateur 5V GBOX","Divertissement Habitacle \u002f Easter Egg"],["N\u002fA - IOT","Nappe FTP Cat6","Bus Interne GBOX","Passerelle Wifi\u002fBle et Télémétrie"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#F012BE","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || 5V Spécial (MegaDrive & ESP32) || SR-SPEC-5V","showlegend":false,"text":["Console Sega Mega Drive","Co-processeur ESP32"],"x":{"dtype":"i2","bdata":"hwCCAA=="},"y":{"dtype":"i1","bdata":"Ky8="},"z":{"dtype":"i1","bdata":"SEc="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#0074D9","dash":"longdashdot","width":2.5},"mode":"lines","name":"Line || Capteurs 3.3V (Roue Secours) || SR-HAB-03","showlegend":false,"x":[180,120,null],"y":[0,0,null],"z":[45,75,null],"type":"scatter3d"},{"customdata":[[0,"Standard","Source","Définir fonction"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#0074D9","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Capteurs 3.3V (Roue Secours) || SR-HAB-03","showlegend":false,"text":["Exemple Capteurs 3.3V (Roue Secours)"],"x":{"dtype":"i1","bdata":"eA=="},"y":{"dtype":"i1","bdata":"AA=="},"z":{"dtype":"i1","bdata":"Sw=="},"type":"scatter3d"},{"hoverinfo":"skip","line":{"color":"#AAAAAA","dash":"solid","width":2.5},"mode":"lines","name":"Line || Organes Mécaniques (Bloc Moteur) || MOTEUR","showlegend":false,"x":[35,35,null],"y":[0,0,null],"z":[65,65,null],"type":"scatter3d"},{"customdata":[["8200XXXXXX","N\u002fA (Structure)","Châssis","Groupe Motopropulseur Cylindres"]],"hovertemplate":"\u003cb\u003eComposant :\u003c\u002fb\u003e %{text}\u003cbr\u003e\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#AAAAAA","line":{"color":"black","width":0.4},"size":5.5,"symbol":"circle"},"mode":"markers","name":"Point || Organes Mécaniques (Bloc Moteur) || MOTEUR","showlegend":false,"text":["Bloc Moteur 1.5 dCi K9K"],"x":{"dtype":"i1","bdata":"Iw=="},"y":{"dtype":"i1","bdata":"AA=="},"z":{"dtype":"i1","bdata":"QQ=="},"type":"scatter3d"}],                        {"margin":{"b":0,"l":0,"r":0,"t":0},"scene":{"aspectmode":"manual","aspectratio":{"x":2,"y":1,"z":0.9},"xaxis":{"range":[0,400],"title":{"text":"Longueur (cm)"}},"yaxis":{"range":[-100,100],"title":{"text":"Largeur (cm)"}},"zaxis":{"range":[0,180],"title":{"text":"Hauteur (cm)"}}},"showlegend":false,"template":{"data":{"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}}},                        {"responsive": true}                    )                };            </script>        </div>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const plotDiv = document.getElementsByClassName('plotly-graph-div')[0];
+            const graphId = plotDiv.id;
+            const gd = document.getElementById(graphId);
+
+            // 1. FILTRAGE ET MASQUAGE DYNAMIQUE DE TRACES
+            document.querySelectorAll('.subnet-toggle').forEach(box => {
+                box.addEventListener('change', function() {
+                    const net = this.getAttribute('data-net');
+                    const sub = this.getAttribute('data-sub');
+                    const isVisible = this.checked;
+
+                    const targetNames = [
+                        `Line || ${net} || ${sub}`,
+                        `Point || ${net} || ${sub}`
+                    ];
+
+                    const indices = [];
+                    for(let i=0; i < gd.data.length; i++) {
+                        if(targetNames.includes(gd.data[i].name)) {
+                            indices.push(i);
+                        }
+                    }
+                    if(indices.length > 0) {
+                        Plotly.restyle(gd, { visible: isVisible ? true : 'legendonly' }, indices);
+                    }
+                });
+            });
+
+            // 2. RECHERCHE ET LOCALISATION DEPUIS LA LISTE DE GAUCHE
+            document.querySelectorAll('.element-locator').forEach(item => {
+                item.addEventListener('click', function() {
+                    const tIdx = parseInt(this.getAttribute('data-trace'));
+                    const pIdx = parseInt(this.getAttribute('data-point'));
+                    
+                    // Remplissage immédiat de l'infobox statique de gauche
+                    document.getElementById('info-title').innerText = this.getAttribute('data-nom');
+                    document.getElementById('info-ref').innerText = this.getAttribute('data-ref');
+                    document.getElementById('info-cable').innerText = this.getAttribute('data-cable');
+                    document.getElementById('info-origin').innerText = this.getAttribute('data-origin');
+                    document.getElementById('info-function').innerText = this.getAttribute('data-func');
+                    
+                    // Déclenchement de l'infobulle éphémère en lévitation 3D
+                    Plotly.Fx.hover(gd, [
+                        { curveNumber: tIdx, pointNumber: pIdx }
+                    ], 'scene');
+                });
+            });
+
+            // 3. SYNCHRONISATION DU HOVER SOURIS (3D -> Gauche)
+            gd.on('plotly_hover', function(data) {
+                if(data.points && data.points[0]) {
+                    const pts = data.points[0];
+                    if(pts.text && pts.customdata && pts.customdata.length >= 4) {
+                        document.getElementById('info-title').innerText = pts.text;
+                        document.getElementById('info-ref').innerText = pts.customdata[0];
+                        document.getElementById('info-cable').innerText = pts.customdata[1];
+                        document.getElementById('info-origin').innerText = pts.customdata[2];
+                        document.getElementById('info-function').innerText = pts.customdata[3];
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
