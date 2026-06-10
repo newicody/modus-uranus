@@ -1,2 +1,34 @@
-X,Y,Z,Nom,PMZ,Ref_OE,Type_Cable,Origine_Signal,Fonction
-35,0,65,Bloc Moteur 1.5 dCi K9K,MOTEUR,8200XXXXXX,N/A (Structure),Châssis,Groupe Motopropulseur Cylindres
+X,Y,Z,Nom,PMZ,Ref_OE,Ref_Montee,Type_Cable,Origine_Signal,Fonction
+35,0,65,Bloc Moteur 1.5 dCi K9K766,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Bloc-cylindres GMP
+35,5,80,Culasse 8 soupapes,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Culasse alu admission/échappement
+35,0,48,Carter d'Huile,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Réserve et circulation huile
+12,0,62,Poulie / Damper Vilebrequin,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Poulie damper vilebrequin
+62,0,58,Volant Moteur,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Volant moteur (65 Nm + Loctite)
+10,12,70,Kit Distribution + Pompe à Eau,MOTEUR,À DÉFINIR,SKF VKMC (123 dents),Liaison Rigide / Structure,Groupe Motopropulseur,Distribution courroie + pompe eau
+42,22,70,Pompe Haute Pression Common Rail,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Mise sous pression gasoil
+40,15,78,Rampe d'Injection HP,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Rampe commune haute pression
+40,12,80,Injecteurs Delphi x4,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Injection directe cylindres 1-4
+40,5,78,Bougies de Préchauffage x4,MOTEUR,À DÉFINIR,OE + graisse cuivre Bardahl,Liaison Rigide / Structure,Groupe Motopropulseur,Préchauffage (10 Nm)
+10,-15,50,Filtre à Gasoil,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration carburant + décanteur eau
+48,-20,55,Turbo Géométrie Variable,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Suralimentation (hybridation Phase 1)
+25,20,82,Collecteur d'Admission,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Distribution air admission
+45,-12,72,Collecteur d'Échappement,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Collecte gaz échappement
+50,-8,72,Vanne EGR + Échangeur,MOTEUR,À DÉFINIR,Nettoyage ou remplacement à évaluer,Liaison Rigide / Structure,Groupe Motopropulseur,Recirculation gaz échappement
+55,-25,78,Catch Can Huile,MOTEUR,N/A - RETROFIT,Catch can alu (reniflard),Liaison Rigide / Structure,Groupe Motopropulseur,Séparateur huile reniflard (retrofit)
+5,0,70,Intercooler FMIC,MOTEUR,N/A - RETROFIT,FMIC à définir,Liaison Rigide / Structure,Groupe Motopropulseur,Refroidissement air suralimenté (front)
+2,0,65,Radiateur Eau,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Refroidissement liquide moteur
+35,-15,75,Thermostat / Boîtier d'Eau,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Régulation température eau
+20,15,52,Support Filtre à Huile / Échangeur,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration + refroidissement huile
+55,25,50,Compresseur de Climatisation,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Compression fluide clim
+15,25,65,Galet Tendeur Accessoire,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Tension courroie accessoires
+20,-20,90,Filtre à Air / Boîtier,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration air admission
+60,35,75,Support Moteur Pendulaire Droit,SR-MOT-01,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Suspension pendulaire droite
+70,-30,70,Support Boîte de Vitesses,SR-MOT-01,À DÉFINIR,Lemförder 37966 01,Liaison Rigide / Structure,Groupe Motopropulseur,Support BV gauche
+45,-5,40,Biellette de Reprise de Couple,SR-MOT-01,À DÉFINIR,Lemförder 36284 01,Liaison Rigide / Structure,Groupe Motopropulseur,Anti-couple inférieur
+55,10,82,Support Alu Supérieur,SR-MOT-01,8200338385,—,Liaison Rigide / Structure,Groupe Motopropulseur,Support supérieur moteur
+72,-22,55,Boîte de Vitesses TL4B043,MOTEUR,À DÉFINIR (JA5 Quickshift origine),320109255R / 8201057476,Liaison Rigide / Structure,Groupe Motopropulseur,BV mécanique 5 rapports (swap)
+65,-15,55,Embrayage,MOTEUR,À DÉFINIR,Valeo 845077,Liaison Rigide / Structure,Groupe Motopropulseur,Embrayage (conversion manuelle)
+68,-18,58,Émetteur/Récepteur Embrayage,MOTEUR,À DÉFINIR,Valeo 804816,Liaison Rigide / Structure,Groupe Motopropulseur,Commande hydraulique embrayage
+65,60,48,Transmission / Cardan Droit,MOTEUR,À DÉFINIR,SKF VKJC 6010,Liaison Rigide / Structure,Groupe Motopropulseur,Transmission roue avant droite
+65,-60,48,Transmission / Cardan Gauche,MOTEUR,À DÉFINIR,SKF VKJC 6009,Liaison Rigide / Structure,Groupe Motopropulseur,Transmission roue avant gauche
+150,0,52,Levier de Vitesses,SR-HAB-03,À DÉFINIR,Tringlerie manuelle (suppr. Quickshift),Liaison Rigide / Câble,Habitacle,Commande de vitesses
