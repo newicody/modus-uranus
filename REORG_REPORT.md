@@ -1,0 +1,53 @@
+# REORG_REPORT — modus-uranus populate
+
+Mode : APPLY  ·  git : True  ·  aux : False
+
+## Plan d'opérations
+
+- MV  /media/eric/modus/modus-uranus/ia/devtool  →  /media/eric/modus/modus-uranus/ia/populate   (ia/devtool -> ia/populate (SPEC §6))
+- DIR /media/eric/modus/modus-uranus/ia/populate/data   (CSV par système (SPEC §6))
+- DIR /media/eric/modus/modus-uranus/ia/populate/plans   (schémas RTA/PartSouq)
+- NEW /media/eric/modus/modus-uranus/ia/populate/plans/.gitkeep   (garder le dossier vide sous git)
+- MV  /media/eric/modus/modus-uranus/ia/populate/modus_3d_interactive.html  →  /media/eric/modus/modus-uranus/ia/populate/atelier.html   (vue 3D = atelier.html (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/ia/populate/organes_mecaniques.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/organes_mecaniques.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/reseau_12v.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/reseau_12v.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/reseau_3v3.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/reseau_3v3.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/reseau_48v.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/reseau_48v.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/reseau_5v_glovebox.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/reseau_5v_glovebox.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/reseau_5v_usb.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/reseau_5v_usb.csv   (CSV -> data/)
+- MV  /media/eric/modus/modus-uranus/ia/populate/sensors.csv  →  /media/eric/modus/modus-uranus/ia/populate/data/sensors.csv   (CSV -> data/)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/transmission.csv   (système manquant: transmission)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/liaison_sol.csv   (système manquant: liaison_sol)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/direction.csv   (système manquant: direction)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/freinage.csv   (système manquant: freinage)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/echappement.csv   (système manquant: echappement)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/thermique.csv   (système manquant: thermique)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/fluides.csv   (système manquant: fluides)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/habitacle.csv   (système manquant: habitacle)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/carrosserie.csv   (système manquant: carrosserie)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/securite.csv   (système manquant: securite)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/reseau_can.csv   (réseau manquant: reseau_can)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/reseau_lin.csv   (réseau manquant: reseau_lin)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/reseau_masse.csv   (réseau manquant: reseau_masse)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/reseau_eclairage.csv   (réseau manquant: reseau_eclairage)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/reseau_diag.csv   (réseau manquant: reseau_diag)
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/cameras.csv   (caméras virtuelles (SPEC §2/§4))
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/historique.md   (métadonnées photos/infos (SPEC §2))
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/budget.csv   (dérivé des .md projet/ (SPEC §2))
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/taches.csv   (dérivé des .md projet/ (SPEC §2))
+- NEW /media/eric/modus/modus-uranus/ia/populate/data/fournisseurs.csv   (dérivé des .md projet/ (SPEC §2))
+- DIR /media/eric/modus/modus-uranus/photos   (photos centralisées (SPEC §6))
+- NEW /media/eric/modus/modus-uranus/photos/.gitkeep   (garder le dossier vide sous git)
+- MV  /media/eric/modus/modus-uranus/projet/Budget_phase_2  →  /media/eric/modus/modus-uranus/projet/Budget_phase_2.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Entretient  →  /media/eric/modus/modus-uranus/projet/Entretient.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Entretient_phase_2  →  /media/eric/modus/modus-uranus/projet/Entretient_phase_2.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Fournisseurs  →  /media/eric/modus/modus-uranus/projet/Fournisseurs.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Outils  →  /media/eric/modus/modus-uranus/projet/Outils.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Outils_audit  →  /media/eric/modus/modus-uranus/projet/Outils_audit.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/Tache_phase_2  →  /media/eric/modus/modus-uranus/projet/Tache_phase_2.md   (extension .md (SPEC §6))
+- MV  /media/eric/modus/modus-uranus/projet/ct  →  /media/eric/modus/modus-uranus/projet/ct.md   (extension .md (SPEC §6))
+
+## ⚠️ À REVOIR (non touché)
+
+- CONFLIT — `/media/eric/modus/modus-uranus/projet/Budget` → `/media/eric/modus/modus-uranus/projet/Budget.md` existe déjà. extension .md (SPEC §6)
+- `Finalisation v19` (racine, espace dans le nom) — doublon probable de `projet/FINALISATION_V19.md`. À vérifier puis archiver/supprimer.
