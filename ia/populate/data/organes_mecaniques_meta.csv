@@ -1,0 +1,34 @@
+id,type_cable,origine_signal,type_reseau,fonction
+gmp_001,Liaison Rigide / Structure,Groupe Motopropulseur,,Bloc-cylindres GMP
+gmp_002,Liaison Rigide / Structure,Groupe Motopropulseur,,Culasse alu admission/échappement
+gmp_003,Liaison Rigide / Structure,Groupe Motopropulseur,,Réserve et circulation huile
+gmp_004,Liaison Rigide / Structure,Groupe Motopropulseur,,Poulie damper vilebrequin
+gmp_005,Liaison Rigide / Structure,Groupe Motopropulseur,,Volant moteur (65 Nm + Loctite)
+gmp_006,Liaison Rigide / Structure,Groupe Motopropulseur,,Distribution courroie + pompe eau
+gmp_007,Liaison Rigide / Structure,Groupe Motopropulseur,,Mise sous pression gasoil
+gmp_008,Liaison Rigide / Structure,Groupe Motopropulseur,,Rampe commune haute pression
+gmp_009,Liaison Rigide / Structure,Groupe Motopropulseur,,Injection directe cyl 1-4 (Delphi EJBR03101D)
+gmp_010,Liaison Rigide / Structure,Groupe Motopropulseur,,Préchauffage (10 Nm)
+gmp_011,Liaison Rigide / Structure,Groupe Motopropulseur,,Filtration carburant + décanteur eau
+gmp_012,Liaison Rigide / Structure,Groupe Motopropulseur,,Suralimentation (hybridation Phase 1)
+gmp_013,Liaison Rigide / Structure,Groupe Motopropulseur,,Distribution air admission
+gmp_014,Liaison Rigide / Structure,Groupe Motopropulseur,,Collecte gaz échappement
+gmp_015,Liaison Rigide / Structure,Groupe Motopropulseur,,Recirculation gaz échappement
+gmp_016,Liaison Rigide / Structure,Groupe Motopropulseur,,Séparateur huile reniflard (retrofit)
+gmp_017,Liaison Rigide / Structure,Groupe Motopropulseur,,Refroidissement air suralimenté (front)
+gmp_018,Liaison Rigide / Structure,Groupe Motopropulseur,,Refroidissement liquide moteur
+gmp_019,Liaison Rigide / Structure,Groupe Motopropulseur,,Régulation température eau
+gmp_020,Liaison Rigide / Structure,Groupe Motopropulseur,,Filtration + refroidissement huile
+gmp_021,Liaison Rigide / Structure,Groupe Motopropulseur,,Compression fluide clim
+gmp_022,Liaison Rigide / Structure,Groupe Motopropulseur,,Tension courroie accessoires
+gmp_023,Liaison Rigide / Structure,Groupe Motopropulseur,,Filtration air admission
+gmp_024,Liaison Rigide / Structure,Groupe Motopropulseur,,Suspension pendulaire droite
+gmp_025,Liaison Rigide / Structure,Groupe Motopropulseur,,Support BV gauche
+gmp_026,Liaison Rigide / Structure,Groupe Motopropulseur,,Anti-couple inférieur
+gmp_027,Liaison Rigide / Structure,Groupe Motopropulseur,,Support supérieur moteur
+gmp_028,Liaison Rigide / Structure,Groupe Motopropulseur,,BV mécanique 5 rapports (swap)
+gmp_029,Liaison Rigide / Structure,Groupe Motopropulseur,,Embrayage (conversion manuelle)
+gmp_030,Liaison Rigide / Structure,Groupe Motopropulseur,,Commande hydraulique embrayage
+gmp_031,Liaison Rigide / Structure,Groupe Motopropulseur,,Transmission roue avant droite
+gmp_032,Liaison Rigide / Structure,Groupe Motopropulseur,,Transmission roue avant gauche
+gmp_033,Liaison Rigide / Câble,Habitacle,,Commande de vitesses

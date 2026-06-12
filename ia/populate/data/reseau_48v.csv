@@ -1,2 +1,2 @@
-X,Y,Z,Nom,PMZ,Ref_OE,Type_Cable,Origine_Signal,Fonction
-120,0,75,Exemple Hybride 48V (iBSG Belt),SR-HAB-03,0,Standard,Source,Définir fonction
+id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+r48v_001,Exemple Hybride 48V (iBSG Belt),reseau_48v,,120,0,75,SR-HAB-03,,,origine,,

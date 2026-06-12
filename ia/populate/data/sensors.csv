@@ -1,45 +1,45 @@
-X,Y,Z,Nom,PMZ,Type_Reseau,Ref_OE,Type_Cable,Origine_Signal,Fonction
-20,0,85,Capteur PMH (Régime),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-30,10,85,Capteur Arbre à Cames (Phase),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-40,15,75,Pression Rail haute pression,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-42,20,72,Régulateur Température Gasoil,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-35,-15,78,Sonde Température Eau Culasse,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-15,-30,90,Débitmètre d'Air Massique (MAF),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-25,-25,65,Pression Suralimentation (MAP),SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-50,-10,82,Recopie Position Vanne EGR,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-15,10,55,Manocontact Pression Huile Bloc,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-20,15,50,Sonde Niveau d'Huile Carter,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-10,-15,45,Détecteur Eau Filtre Gasoil,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-55,25,60,Capteur Pression Réfrigérant Clim,SR-MOT-01,FTTH,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-40,75,35,Vitesse Roue AV D,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-40,-75,35,Vitesse Roue AV G,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-320,75,35,Vitesse Roue AR D,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-320,-75,35,Vitesse Roue AR G,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-62,-55,43,Capteur Pression Maître-Cylindre,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-125,-20,75,Capteur Angle Volant (DAE),SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-125,-15,70,Capteur Couple Colonne Direction,SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-160,0,38,Accéléromètre Lacet (Centrale ESP),SR-CHAS-02,P2P,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-110,0,105,Combiné Compteur Digital,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-130,30,80,Comodo Phares Essuie-Glace,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-140,0,130,Capteur Pluie Luminosité,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-135,0,70,Façade Commande Clim Auto,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-140,10,65,Capteur Évaporateur Clim,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-138,-5,125,Sonde Température Intérieure,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-105,-40,50,Potentiomètre Pédale Accélérateur,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-105,-25,52,Contacteur Bi-fonction Frein,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-105,-15,52,Capteur Fin de Course Embrayage,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-150,82,75,Platine Lève-Vitre Porte AV D,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-150,-82,75,Platine Lève-Vitre Porte AV G,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-250,82,80,Moteur Serrure Porte AR D,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-250,-82,80,Moteur Serrure Porte AR G,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-370,0,70,Contacteur Serrure Coffre,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-365,40,45,Radar Recul Extérieur 1,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-365,-40,45,Radar Recul Extérieur 2,SR-HAB-03,FTTLA,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-125,-20,82,Airbag Volant Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-125,40,85,Airbag Frontal Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-190,-55,55,Airbag Latéral Siège Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-190,55,55,Airbag Latéral Siège Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-140,-78,50,Prétensionneur Ceinture Conducteur,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-140,78,50,Prétensionneur Ceinture Passager,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-160,-80,60,Capteur Choc Latéral Montant B G,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
-160,80,60,Capteur Choc Latéral Montant B D,SR-HAB-03,ADSL,N/A,Fibre Optique Monomode G657.A2 Structure Serrée (Média FTTH),N/A,N/A
+id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+cap_001,Capteur PMH (Régime),sensors,,20,0,85,SR-MOT-01,,,origine,,
+cap_002,Capteur Arbre à Cames (Phase),sensors,,30,10,85,SR-MOT-01,,,origine,,
+cap_003,Pression Rail haute pression,sensors,,40,15,75,SR-MOT-01,,,origine,,
+cap_004,Régulateur Température Gasoil,sensors,,42,20,72,SR-MOT-01,,,origine,,
+cap_005,Sonde Température Eau Culasse,sensors,,35,-15,78,SR-MOT-01,,,origine,,
+cap_006,Débitmètre d'Air Massique (MAF),sensors,,15,-30,90,SR-MOT-01,,,origine,,
+cap_007,Pression Suralimentation (MAP),sensors,,25,-25,65,SR-MOT-01,,,origine,,
+cap_008,Recopie Position Vanne EGR,sensors,,50,-10,82,SR-MOT-01,,,origine,,
+cap_009,Manocontact Pression Huile Bloc,sensors,,15,10,55,SR-MOT-01,,,origine,,
+cap_010,Sonde Niveau d'Huile Carter,sensors,,20,15,50,SR-MOT-01,,,origine,,
+cap_011,Détecteur Eau Filtre Gasoil,sensors,,10,-15,45,SR-MOT-01,,,origine,,
+cap_012,Capteur Pression Réfrigérant Clim,sensors,,55,25,60,SR-MOT-01,,,origine,,
+cap_013,Vitesse Roue AV D,sensors,,40,75,35,SR-CHAS-02,,,origine,,
+cap_014,Vitesse Roue AV G,sensors,,40,-75,35,SR-CHAS-02,,,origine,,
+cap_015,Vitesse Roue AR D,sensors,,320,75,35,SR-CHAS-02,,,origine,,
+cap_016,Vitesse Roue AR G,sensors,,320,-75,35,SR-CHAS-02,,,origine,,
+cap_017,Capteur Pression Maître-Cylindre,sensors,,62,-55,43,SR-CHAS-02,,,origine,,
+cap_018,Capteur Angle Volant (DAE),sensors,,125,-20,75,SR-CHAS-02,,,origine,,
+cap_019,Capteur Couple Colonne Direction,sensors,,125,-15,70,SR-CHAS-02,,,origine,,
+cap_020,Accéléromètre Lacet (Centrale ESP),sensors,,160,0,38,SR-CHAS-02,,,origine,,
+cap_021,Combiné Compteur Digital,sensors,,110,0,105,SR-HAB-03,,,origine,,
+cap_022,Comodo Phares Essuie-Glace,sensors,,130,30,80,SR-HAB-03,,,origine,,
+cap_023,Capteur Pluie Luminosité,sensors,,140,0,130,SR-HAB-03,,,origine,,
+cap_024,Façade Commande Clim Auto,sensors,,135,0,70,SR-HAB-03,,,origine,,
+cap_025,Capteur Évaporateur Clim,sensors,,140,10,65,SR-HAB-03,,,origine,,
+cap_026,Sonde Température Intérieure,sensors,,138,-5,125,SR-HAB-03,,,origine,,
+cap_027,Potentiomètre Pédale Accélérateur,sensors,,105,-40,50,SR-HAB-03,,,origine,,
+cap_028,Contacteur Bi-fonction Frein,sensors,,105,-25,52,SR-HAB-03,,,origine,,
+cap_029,Capteur Fin de Course Embrayage,sensors,,105,-15,52,SR-HAB-03,,,origine,,
+cap_030,Platine Lève-Vitre Porte AV D,sensors,,150,82,75,SR-HAB-03,,,origine,,
+cap_031,Platine Lève-Vitre Porte AV G,sensors,,150,-82,75,SR-HAB-03,,,origine,,
+cap_032,Moteur Serrure Porte AR D,sensors,,250,82,80,SR-HAB-03,,,origine,,
+cap_033,Moteur Serrure Porte AR G,sensors,,250,-82,80,SR-HAB-03,,,origine,,
+cap_034,Contacteur Serrure Coffre,sensors,,370,0,70,SR-HAB-03,,,origine,,
+cap_035,Radar Recul Extérieur 1,sensors,,365,40,45,SR-HAB-03,,,origine,,
+cap_036,Radar Recul Extérieur 2,sensors,,365,-40,45,SR-HAB-03,,,origine,,
+cap_037,Airbag Volant Conducteur,sensors,,125,-20,82,SR-HAB-03,,,origine,,
+cap_038,Airbag Frontal Passager,sensors,,125,40,85,SR-HAB-03,,,origine,,
+cap_039,Airbag Latéral Siège Conducteur,sensors,,190,-55,55,SR-HAB-03,,,origine,,
+cap_040,Airbag Latéral Siège Passager,sensors,,190,55,55,SR-HAB-03,,,origine,,
+cap_041,Prétensionneur Ceinture Conducteur,sensors,,140,-78,50,SR-HAB-03,,,origine,,
+cap_042,Prétensionneur Ceinture Passager,sensors,,140,78,50,SR-HAB-03,,,origine,,
+cap_043,Capteur Choc Latéral Montant B G,sensors,,160,-80,60,SR-HAB-03,,,origine,,
+cap_044,Capteur Choc Latéral Montant B D,sensors,,160,80,60,SR-HAB-03,,,origine,,

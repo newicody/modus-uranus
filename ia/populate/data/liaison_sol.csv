@@ -1,1 +1,17 @@
 id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+tri_av_g,Triangle inférieur AV G,Liaison au sol,Suspension AV,62,-50,45,AV gauche,8200346941,Lemförder 29699 01,à_changer,V1,90+90°
+tri_av_d,Triangle inférieur AV D,Liaison au sol,Suspension AV,62,50,45,AV droite,8200346942,Lemförder 29700 01,à_changer,V1,90+90°
+fus_av_g,Porte-fusée AV G,Liaison au sol,Suspension AV,66,-66,52,AV gauche,À DÉFINIR,VAICO V46-0969,à_changer,V1,
+fus_av_d,Porte-fusée AV D,Liaison au sol,Suspension AV,66,66,52,AV droite,À DÉFINIR,VAICO V46-0970,à_changer,V1,
+roul_av_g,Roulement de roue AV G,Liaison au sol,Suspension AV,67,-68,50,AV gauche,À DÉFINIR,SKF VKBA 3596,à_changer,V1,280
+roul_av_d,Roulement de roue AV D,Liaison au sol,Suspension AV,67,68,50,AV droite,À DÉFINIR,SKF VKBA 3596,à_changer,V1,280
+amo_av_g,Amortisseur AV G,Liaison au sol,Suspension AV,62,-62,82,AV gauche,8200675732,Bilstein B8 35-128649,à_changer,V1,
+amo_av_d,Amortisseur AV D,Liaison au sol,Suspension AV,62,62,82,AV droite,8200675731,Bilstein B8 35-128649,à_changer,V1,
+res_av_g,Ressort AV G,Liaison au sol,Suspension AV,62,-62,70,AV gauche,À DÉFINIR,Eibach Pro-Kit E10-75-008,à_changer,V1,
+res_av_d,Ressort AV D,Liaison au sol,Suspension AV,62,62,70,AV droite,À DÉFINIR,Eibach Pro-Kit E10-75-008,à_changer,V1,
+coup_av_g,Coupelle + butée AV G,Liaison au sol,Suspension AV,62,-62,96,AV gauche,8200504291,SNR KB655.32,à_changer,V1,
+coup_av_d,Coupelle + butée AV D,Liaison au sol,Suspension AV,62,62,96,AV droite,8200504291,SNR KB655.32,à_changer,V1,
+biel_stab_g,Biellette barre stab AV G,Liaison au sol,Suspension AV,56,-52,55,AV gauche,551107916R,MEYLE-HD 35-16 060 0021/HD,à_changer,V1,
+biel_stab_d,Biellette barre stab AV D,Liaison au sol,Suspension AV,56,52,55,AV droite,551107916R,MEYLE-HD 35-16 060 0021/HD,à_changer,V1,
+barre_stab_av,Barre antidévers AV,Liaison au sol,Suspension AV,54,0,45,AV centre,546111633R,OE conservée,origine,V1,
+sb_tri_av,Silentblocs triangle AV (Powerflex),Liaison au sol,Suspension AV,58,0,44,AV centre,À DÉFINIR,Powerflex PF-F60901-2 / PF-F60902-2,montée,V1,

@@ -1,1 +1,18 @@
 id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+etr_av_g,Étrier AV G,Freinage,Frein AV 260,67,-68,55,AV gauche,7701208332,FEBI 178170,à_changer,V1,105
+etr_av_d,Étrier AV D,Freinage,Frein AV 260,67,68,55,AV droite,7701208333,FEBI 178171,à_changer,V1,105
+cha_av_g,Chape étrier AV G,Freinage,Frein AV 260,66,-68,53,AV gauche,7701059704,FEBI 198806,à_changer,V1,32
+cha_av_d,Chape étrier AV D,Freinage,Frein AV 260,66,68,53,AV droite,7701059704,FEBI 198806,à_changer,V1,32
+dis_av_g,Disque AV G 260,Freinage,Frein AV 260,67,-70,55,AV gauche,À DÉFINIR,Brembo 09.9078.75,à_changer,V1,15
+dis_av_d,Disque AV D 260,Freinage,Frein AV 260,67,70,55,AV droite,À DÉFINIR,Brembo 09.9078.75,à_changer,V1,15
+plq_av,Plaquettes AV,Freinage,Frein AV 260,67,0,55,AV centre,410608481R,TRW GDB1614,à_changer,V1,
+pf_ar_g,Porte-fusée AR G (conversion disque),Freinage,Frein AR 240,290,-66,45,AR gauche,À DÉFINIR,BLUE PRINT ADN18423,à_changer,V1,
+etr_ar_g,Étrier AR G,Freinage,Frein AR 240,290,-68,45,AR gauche,À DÉFINIR,TRW BHQ243,à_changer,V1,
+etr_ar_d,Étrier AR D,Freinage,Frein AR 240,290,68,45,AR droite,À DÉFINIR,TRW BHQ244,à_changer,V1,
+cha_ar_g,Chape étrier AR G,Freinage,Frein AR 240,289,-68,45,AR gauche,À DÉFINIR,BUDWEG 383648-1,à_changer,V1,
+cha_ar_d,Chape étrier AR D,Freinage,Frein AR 240,289,68,45,AR droite,À DÉFINIR,GH GH-463975,à_changer,V1,
+dis_ar_g,Disque AR G 240 (roulement+ABS),Freinage,Frein AR 240,291,-70,45,AR gauche,À DÉFINIR,TRW DF4274BS,à_changer,V1,280
+dis_ar_d,Disque AR D 240 (roulement+ABS),Freinage,Frein AR 240,291,70,45,AR droite,À DÉFINIR,TRW DF4274BS,à_changer,V1,280
+plq_ar,Plaquettes AR,Freinage,Frein AR 240,290,0,45,AR centre,À DÉFINIR,TRW GDB1330,à_changer,V1,
+maitre_cyl,Maître-cylindre,Freinage,Hydraulique,45,-20,82,compartiment avant,À DÉFINIR,OE conservé,origine,V1,
+flexibles,Flexibles aviation AV+AR,Freinage,Hydraulique,67,0,50,AV/AR,À DÉFINIR,HEL aviation,à_changer,V1,

@@ -1,1 +1,9 @@
 id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+cremaillere,Crémaillère de direction,Direction,Direction,72,0,45,compartiment avant,À DÉFINIR,OE conservée,origine,V1,
+rot_axiale_g,Rotule axiale G (biellette int.),Direction,Direction,70,-30,45,AV gauche,7701475841,Lemförder 29465 01,à_changer,V1,
+rot_axiale_d,Rotule axiale D (biellette int.),Direction,Direction,70,30,45,AV droite,7701475841,Lemförder 29465 01,à_changer,V1,
+rot_dir_ext_g,Rotule direction ext. G (boîtier),Direction,Direction,66,-62,48,AV gauche,7701475842,MEYLE-HD 16-16 020 0011,à_changer,V1,
+rot_dir_ext_d,Rotule direction ext. D (boîtier),Direction,Direction,66,62,48,AV droite,7701475842,MEYLE-HD 16-16 020 0012,à_changer,V1,
+colonne_dir,Colonne de direction,Direction,Direction,95,-25,60,habitacle avant,À DÉFINIR,OE conservée,origine,V1,
+souf_dir_g,Soufflet de direction G,Direction,Direction,71,-25,45,AV gauche,À DÉFINIR,SKF VKJP 2011,à_changer,V1,
+souf_dir_d,Soufflet de direction D,Direction,Direction,71,25,45,AV droite,À DÉFINIR,SKF VKJP 2011,à_changer,V1,

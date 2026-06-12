@@ -1,34 +1,34 @@
-X,Y,Z,Nom,PMZ,Ref_OE,Ref_Montee,Type_Cable,Origine_Signal,Fonction
-35,0,65,Bloc Moteur 1.5 dCi K9K766,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Bloc-cylindres GMP
-35,5,80,Culasse 8 soupapes,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Culasse alu admission/échappement
-35,0,48,Carter d'Huile,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Réserve et circulation huile
-12,0,62,Poulie / Damper Vilebrequin,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Poulie damper vilebrequin
-62,0,58,Volant Moteur,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Volant moteur (65 Nm + Loctite)
-10,12,70,Kit Distribution + Pompe à Eau,MOTEUR,À DÉFINIR,SKF VKMC (123 dents),Liaison Rigide / Structure,Groupe Motopropulseur,Distribution courroie + pompe eau
-42,22,70,Pompe Haute Pression Common Rail,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Mise sous pression gasoil
-40,15,78,Rampe d'Injection HP,MOTEUR,8200584034,—,Liaison Rigide / Structure,Groupe Motopropulseur,Rampe commune haute pression
-40,12,80,Injecteurs Delphi x4,MOTEUR,8200815416 / 166001137R,Phase 1 (à définir),Liaison Rigide / Structure,Groupe Motopropulseur,Injection directe cyl 1-4 (Delphi EJBR03101D)
-40,5,78,Bougies de Préchauffage x4,MOTEUR,À DÉFINIR,OE + graisse cuivre Bardahl,Liaison Rigide / Structure,Groupe Motopropulseur,Préchauffage (10 Nm)
-10,-15,50,Filtre à Gasoil,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration carburant + décanteur eau
-48,-20,55,Turbo Géométrie Variable,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Suralimentation (hybridation Phase 1)
-25,20,82,Collecteur d'Admission,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Distribution air admission
-45,-12,72,Collecteur d'Échappement,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Collecte gaz échappement
-50,-8,72,Vanne EGR + Échangeur,MOTEUR,À DÉFINIR,Nettoyage ou remplacement à évaluer,Liaison Rigide / Structure,Groupe Motopropulseur,Recirculation gaz échappement
-55,-25,78,Catch Can Huile,MOTEUR,N/A - RETROFIT,Catch can alu (reniflard),Liaison Rigide / Structure,Groupe Motopropulseur,Séparateur huile reniflard (retrofit)
-5,0,70,Intercooler FMIC,MOTEUR,N/A - RETROFIT,FMIC à définir,Liaison Rigide / Structure,Groupe Motopropulseur,Refroidissement air suralimenté (front)
-2,0,65,Radiateur Eau,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Refroidissement liquide moteur
-35,-15,75,Thermostat / Boîtier d'Eau,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Régulation température eau
-20,15,52,Support Filtre à Huile / Échangeur,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration + refroidissement huile
-55,25,50,Compresseur de Climatisation,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Compression fluide clim
-15,25,65,Galet Tendeur Accessoire,MOTEUR,117203694R,—,Liaison Rigide / Structure,Groupe Motopropulseur,Tension courroie accessoires
-20,-20,90,Filtre à Air / Boîtier,MOTEUR,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Filtration air admission
-60,35,75,Support Moteur Pendulaire Droit,SR-MOT-01,À DÉFINIR,—,Liaison Rigide / Structure,Groupe Motopropulseur,Suspension pendulaire droite
-70,-30,70,Support Boîte de Vitesses,SR-MOT-01,À DÉFINIR,Lemförder 37966 01,Liaison Rigide / Structure,Groupe Motopropulseur,Support BV gauche
-45,-5,40,Biellette de Reprise de Couple,SR-MOT-01,À DÉFINIR,Lemförder 36284 01,Liaison Rigide / Structure,Groupe Motopropulseur,Anti-couple inférieur
-55,10,82,Support Alu Supérieur,SR-MOT-01,8200338385,—,Liaison Rigide / Structure,Groupe Motopropulseur,Support supérieur moteur
-72,-22,55,Boîte de Vitesses TL4B043,MOTEUR,À DÉFINIR (JA5 Quickshift origine),320109255R / 8201057476,Liaison Rigide / Structure,Groupe Motopropulseur,BV mécanique 5 rapports (swap)
-65,-15,55,Embrayage,MOTEUR,8200527569 / 301016758R,Valeo 845077,Liaison Rigide / Structure,Groupe Motopropulseur,Embrayage (conversion manuelle)
-68,-18,58,Émetteur/Récepteur Embrayage,MOTEUR,306203381R / 8200982503,Valeo 804816,Liaison Rigide / Structure,Groupe Motopropulseur,Commande hydraulique embrayage
-65,60,48,Transmission / Cardan Droit,MOTEUR,À DÉFINIR,SKF VKJC 6010,Liaison Rigide / Structure,Groupe Motopropulseur,Transmission roue avant droite
-65,-60,48,Transmission / Cardan Gauche,MOTEUR,À DÉFINIR,SKF VKJC 6009,Liaison Rigide / Structure,Groupe Motopropulseur,Transmission roue avant gauche
-150,0,52,Levier de Vitesses,SR-HAB-03,À DÉFINIR,Tringlerie manuelle (suppr. Quickshift),Liaison Rigide / Câble,Habitacle,Commande de vitesses
+id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+gmp_001,Bloc Moteur 1.5 dCi K9K766,groupe_motopropulseur,,35,0,65,MOTEUR,,,origine,,
+gmp_002,Culasse 8 soupapes,groupe_motopropulseur,,35,5,80,MOTEUR,,,origine,,
+gmp_003,Carter d'Huile,groupe_motopropulseur,,35,0,48,MOTEUR,,,origine,,
+gmp_004,Poulie / Damper Vilebrequin,groupe_motopropulseur,,12,0,62,MOTEUR,,,origine,,
+gmp_005,Volant Moteur,groupe_motopropulseur,,62,0,58,MOTEUR,,,origine,,
+gmp_006,Kit Distribution + Pompe à Eau,groupe_motopropulseur,,10,12,70,MOTEUR,,SKF VKMC (123 dents),origine,,
+gmp_007,Pompe Haute Pression Common Rail,groupe_motopropulseur,,42,22,70,MOTEUR,,,origine,,
+gmp_008,Rampe d'Injection HP,groupe_motopropulseur,,40,15,78,MOTEUR,8200584034,,origine,,
+gmp_009,Injecteurs Delphi x4,groupe_motopropulseur,,40,12,80,MOTEUR,8200815416 / 166001137R,Phase 1 (à définir),origine,,
+gmp_010,Bougies de Préchauffage x4,groupe_motopropulseur,,40,5,78,MOTEUR,,OE + graisse cuivre Bardahl,origine,,
+gmp_011,Filtre à Gasoil,groupe_motopropulseur,,10,-15,50,MOTEUR,,,origine,,
+gmp_012,Turbo Géométrie Variable,groupe_motopropulseur,,48,-20,55,MOTEUR,,,origine,,
+gmp_013,Collecteur d'Admission,groupe_motopropulseur,,25,20,82,MOTEUR,,,origine,,
+gmp_014,Collecteur d'Échappement,groupe_motopropulseur,,45,-12,72,MOTEUR,,,origine,,
+gmp_015,Vanne EGR + Échangeur,groupe_motopropulseur,,50,-8,72,MOTEUR,,Nettoyage ou remplacement à évaluer,origine,,
+gmp_016,Catch Can Huile,groupe_motopropulseur,,55,-25,78,MOTEUR,,Catch can alu (reniflard),origine,,
+gmp_017,Intercooler FMIC,groupe_motopropulseur,,5,0,70,MOTEUR,,FMIC à définir,origine,,
+gmp_018,Radiateur Eau,groupe_motopropulseur,,2,0,65,MOTEUR,,,origine,,
+gmp_019,Thermostat / Boîtier d'Eau,groupe_motopropulseur,,35,-15,75,MOTEUR,,,origine,,
+gmp_020,Support Filtre à Huile / Échangeur,groupe_motopropulseur,,20,15,52,MOTEUR,,,origine,,
+gmp_021,Compresseur de Climatisation,groupe_motopropulseur,,55,25,50,MOTEUR,,,origine,,
+gmp_022,Galet Tendeur Accessoire,groupe_motopropulseur,,15,25,65,MOTEUR,117203694R,,origine,,
+gmp_023,Filtre à Air / Boîtier,groupe_motopropulseur,,20,-20,90,MOTEUR,,,origine,,
+gmp_024,Support Moteur Pendulaire Droit,groupe_motopropulseur,,60,35,75,SR-MOT-01,,,origine,,
+gmp_025,Support Boîte de Vitesses,groupe_motopropulseur,,70,-30,70,SR-MOT-01,,Lemförder 37966 01,origine,,
+gmp_026,Biellette de Reprise de Couple,groupe_motopropulseur,,45,-5,40,SR-MOT-01,,Lemförder 36284 01,origine,,
+gmp_027,Support Alu Supérieur,groupe_motopropulseur,,55,10,82,SR-MOT-01,8200338385,,origine,,
+gmp_028,Boîte de Vitesses TL4B043,groupe_motopropulseur,,72,-22,55,MOTEUR,À DÉFINIR (JA5 Quickshift origine),320109255R / 8201057476,origine,,
+gmp_029,Embrayage,groupe_motopropulseur,,65,-15,55,MOTEUR,8200527569 / 301016758R,Valeo 845077,origine,,
+gmp_030,Émetteur/Récepteur Embrayage,groupe_motopropulseur,,68,-18,58,MOTEUR,306203381R / 8200982503,Valeo 804816,origine,,
+gmp_031,Transmission / Cardan Droit,groupe_motopropulseur,,65,60,48,MOTEUR,,SKF VKJC 6010,origine,,
+gmp_032,Transmission / Cardan Gauche,groupe_motopropulseur,,65,-60,48,MOTEUR,,SKF VKJC 6009,origine,,
+gmp_033,Levier de Vitesses,groupe_motopropulseur,,150,0,52,SR-HAB-03,,Tringlerie manuelle (suppr. Quickshift),origine,,

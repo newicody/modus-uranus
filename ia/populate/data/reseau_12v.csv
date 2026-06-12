@@ -1,22 +1,22 @@
-X,Y,Z,Nom,PMZ,Ref_OE,Ref_Montee,Type_Cable,Origine_Signal,Fonction
-340,0,25,Batterie 12V LiFePO4 (relocalisée coffre),DIS-BAT-12V,Batterie plomb 12V origine,EverExceed LiFePO4 12V 8Ah,Cuivre Multibrins ISO 6722,Source,Stockage énergie basse tension
-335,0,28,Diode Idéale Anti-Retour,DIS-BAT-12V,N/A - RETROFIT,LTC4359,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Protection inversion + chute tension
-335,10,30,Ventilateur Caisson + Thermostat,DIS-BAT-12V,N/A - RETROFIT,KSD301 NO 40°C + ventilo PC 80mm,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Ventilation caisson (fail-ON)
-25,25,55,Alternateur,SR-MOT-01,À DÉFINIR (alternateur K9K stock),Charbons + bagues neufs,Cuivre Multibrins ISO 6722,Source,Charge batterie 12V (>13V)
-25,-20,45,Démarreur,SR-MOT-01,À DÉFINIR,Reconditionné (préventif),Cuivre Multibrins ISO 6722,DIS-BAT-12V,Démarrage moteur
-45,0,80,Boîtier Fusibles Moteur (PDU),SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Distribution + protection compartiment avant
-180,0,45,UCH (Platine Servitude Habitacle),SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Gestion servitudes habitacle
-48,5,78,Relais Préchauffage,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Pilotage bougies préchauffage
-8,0,72,GMV Ventilateur Radiateur,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Refroidissement (consommateur fort)
-300,0,30,Pompe à Carburant + Jauge,DIS-BAT-12V,8200588625,—,Cuivre Multibrins ISO 6722,DIS-BAT-12V,Alimentation gasoil + niveau réservoir
-10,20,85,Klaxon,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Avertisseur sonore
-5,55,70,Phare Avant Droit,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Éclairage avant droit
-5,-55,70,Phare Avant Gauche,SR-MOT-01,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-MOT-01,Éclairage avant gauche
-375,55,70,Feu Arrière Droit,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Signalisation arrière droite
-375,-55,70,Feu Arrière Gauche,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Signalisation arrière gauche
-360,0,90,Lunette Dégivrante,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Dégivrage vitre arrière
-90,0,95,Moteur Essuie-Glace Avant,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Essuyage pare-brise
-140,15,55,Pulseur d'Air Habitacle,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Ventilation habitacle (consommateur fort)
-62,-55,45,Pompe ABS / ESP,SR-CHAS-02,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-CHAS-02,Groupe hydraulique freinage
-150,0,50,Prise 12V / Allume-Cigare,SR-HAB-03,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-HAB-03,Accessoire 12V habitacle
-30,30,60,Réservoir Liquide de Frein + Maître-Cylindre,SR-CHAS-02,À DÉFINIR,—,Cuivre Multibrins ISO 6722,SR-CHAS-02,Niveau liquide frein (témoin)
+id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+r12v_001,Batterie 12V LiFePO4 (relocalisée coffre),reseau_12v,,340,0,25,DIS-BAT-12V,Batterie plomb 12V origine,EverExceed LiFePO4 12V 8Ah,origine,,
+r12v_002,Diode Idéale Anti-Retour,reseau_12v,,335,0,28,DIS-BAT-12V,,LTC4359,origine,,
+r12v_003,Ventilateur Caisson + Thermostat,reseau_12v,,335,10,30,DIS-BAT-12V,,KSD301 NO 40°C + ventilo PC 80mm,origine,,
+r12v_004,Alternateur,reseau_12v,,25,25,55,SR-MOT-01,À DÉFINIR (alternateur K9K stock),Charbons + bagues neufs,origine,,
+r12v_005,Démarreur,reseau_12v,,25,-20,45,SR-MOT-01,,Reconditionné (préventif),origine,,
+r12v_006,Boîtier Fusibles Moteur (PDU),reseau_12v,,45,0,80,SR-MOT-01,,,origine,,
+r12v_007,UCH (Platine Servitude Habitacle),reseau_12v,,180,0,45,SR-HAB-03,,,origine,,
+r12v_008,Relais Préchauffage,reseau_12v,,48,5,78,SR-MOT-01,,,origine,,
+r12v_009,GMV Ventilateur Radiateur,reseau_12v,,8,0,72,SR-MOT-01,,,origine,,
+r12v_010,Pompe à Carburant + Jauge,reseau_12v,,300,0,30,DIS-BAT-12V,8200588625,,origine,,
+r12v_011,Klaxon,reseau_12v,,10,20,85,SR-MOT-01,,,origine,,
+r12v_012,Phare Avant Droit,reseau_12v,,5,55,70,SR-MOT-01,,,origine,,
+r12v_013,Phare Avant Gauche,reseau_12v,,5,-55,70,SR-MOT-01,,,origine,,
+r12v_014,Feu Arrière Droit,reseau_12v,,375,55,70,SR-HAB-03,,,origine,,
+r12v_015,Feu Arrière Gauche,reseau_12v,,375,-55,70,SR-HAB-03,,,origine,,
+r12v_016,Lunette Dégivrante,reseau_12v,,360,0,90,SR-HAB-03,,,origine,,
+r12v_017,Moteur Essuie-Glace Avant,reseau_12v,,90,0,95,SR-HAB-03,,,origine,,
+r12v_018,Pulseur d'Air Habitacle,reseau_12v,,140,15,55,SR-HAB-03,,,origine,,
+r12v_019,Pompe ABS / ESP,reseau_12v,,62,-55,45,SR-CHAS-02,,,origine,,
+r12v_020,Prise 12V / Allume-Cigare,reseau_12v,,150,0,50,SR-HAB-03,,,origine,,
+r12v_021,Réservoir Liquide de Frein + Maître-Cylindre,reseau_12v,,30,30,60,SR-CHAS-02,,,origine,,

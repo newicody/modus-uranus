@@ -1,3 +1,3 @@
-X,Y,Z,Nom,PMZ,Ref_OE,Type_Cable,Origine_Signal,Fonction
-135,43,72,Console Sega Mega Drive,SR-SPEC-5V,N/A - RETROFIT,Blindé Cuivre 2x1.5mm²,Régulateur 5V GBOX,Divertissement Habitacle / Easter Egg
-130,47,71,Co-processeur ESP32,SR-SPEC-5V,N/A - IOT,Nappe FTP Cat6,Bus Interne GBOX,Passerelle Wifi/Ble et Télémétrie
+id,nom,systeme,sous_systeme,X,Y,Z,zone,ref_oe,ref_montee,etat,phase,couple_nm
+r5vg_001,Console Sega Mega Drive,reseau_5v_glovebox,,135,43,72,SR-SPEC-5V,,,origine,,
+r5vg_002,Co-processeur ESP32,reseau_5v_glovebox,,130,47,71,SR-SPEC-5V,N/A - IOT,,origine,,

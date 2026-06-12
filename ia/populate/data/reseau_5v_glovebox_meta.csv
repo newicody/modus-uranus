@@ -1,0 +1,3 @@
+id,type_cable,origine_signal,type_reseau,fonction
+r5vg_001,Blindé Cuivre 2x1.5mm²,Régulateur 5V GBOX,,Divertissement Habitacle / Easter Egg
+r5vg_002,Nappe FTP Cat6,Bus Interne GBOX,,Passerelle Wifi/Ble et Télémétrie
